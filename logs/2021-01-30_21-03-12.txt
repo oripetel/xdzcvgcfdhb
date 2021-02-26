@@ -1,0 +1,628 @@
+npm WARN discord.js@11.6.4 requires a peer of @discordjs/uws@^10.149.0 but none is installed. You must install peer dependencies yourself.
+
+audited 126 packages in 1.377s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+> accountgenbot@2.0.0 start /home/minecraft/multicraft/servers/server165639
+> node index.js
+
+Ready to serve in 0 channels on 0 servers, for a total of 0 users.
+Attempting to load .js
+Attempting to load genaliexpress.js
+Attempting to load genazure.js
+Attempting to load gencallofduty.js
+Attempting to load genduolingo.js
+Attempting to load genhulu.js
+Attempting to load gennordvpn.js
+Attempting to load gensteam.js
+Attempting to load genwish.js
+Everything loaded properly.
+Unhandled promise rejection: DiscordAPIError: Unknown Message
+    at /home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/rest/RequestHandlers/Sequential.js:85:15
+    at /home/minecraft/multicraft/servers/server165639/node_modules/snekfetch/src/index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  path: '/api/v7/channels/804037775526592553/messages/805210811567308840',
+  code: 10008,
+  method: 'DELETE'
+}
+Unhandled promise rejection: Error: Cannot find module './commands/gen.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/genzure.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/steam.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/steam.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/genstema.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/steam.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: DiscordAPIError: Unknown Message
+    at /home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/rest/RequestHandlers/Sequential.js:85:15
+    at /home/minecraft/multicraft/servers/server165639/node_modules/snekfetch/src/index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  path: '/api/v7/channels/804037775526592553/messages/805320377382469652',
+  code: 10008,
+  method: 'DELETE'
+}
+Unhandled promise rejection: DiscordAPIError: Unknown Message
+    at /home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/rest/RequestHandlers/Sequential.js:85:15
+    at /home/minecraft/multicraft/servers/server165639/node_modules/snekfetch/src/index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  path: '/api/v7/channels/804037775526592553/messages/805321384002846732',
+  code: 10008,
+  method: 'DELETE'
+}
+Unhandled promise rejection: Error: Cannot find module './commands/aliexpress.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/gennordvpm.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/invite.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: DiscordAPIError: Unknown Message
+    at /home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/rest/RequestHandlers/Sequential.js:85:15
+    at /home/minecraft/multicraft/servers/server165639/node_modules/snekfetch/src/index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  path: '/api/v7/channels/804037775526592553/messages/805432300632014868',
+  code: 10008,
+  method: 'DELETE'
+}
+Unhandled promise rejection: Error: Cannot find module './commands/gennordvp.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/help.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/invite.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: DiscordAPIError: Cannot send messages to this user
+    at /home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/rest/RequestHandlers/Sequential.js:85:15
+    at /home/minecraft/multicraft/servers/server165639/node_modules/snekfetch/src/index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  path: '/api/v7/channels/805622434144321556/messages',
+  code: 50007,
+  method: 'POST'
+}
+Unhandled promise rejection: DiscordAPIError: Unknown Message
+    at /home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/rest/RequestHandlers/Sequential.js:85:15
+    at /home/minecraft/multicraft/servers/server165639/node_modules/snekfetch/src/index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  path: '/api/v7/channels/804037775526592553/messages/805622433192738877',
+  code: 10008,
+  method: 'DELETE'
+}
+Unhandled promise rejection: Error: Cannot find module './commands/gencallofduty+gencallofduty.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/gennetflix.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/steam.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/steam.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/help.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/stock.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/steam.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/steamgen.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/stock.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: DiscordAPIError: Unknown Message
+    at /home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/rest/RequestHandlers/Sequential.js:85:15
+    at /home/minecraft/multicraft/servers/server165639/node_modules/snekfetch/src/index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  path: '/api/v7/channels/804037775526592553/messages/805809034074521661',
+  code: 10008,
+  method: 'DELETE'
+}
+Unhandled promise rejection: Error: Cannot find module './commands/stock.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/help.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: DiscordAPIError: Unknown Message
+    at /home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/rest/RequestHandlers/Sequential.js:85:15
+    at /home/minecraft/multicraft/servers/server165639/node_modules/snekfetch/src/index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  path: '/api/v7/channels/804037775526592553/messages/805858890527801354',
+  code: 10008,
+  method: 'DELETE'
+}
+Unhandled promise rejection: DiscordAPIError: Unknown Message
+    at /home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/rest/RequestHandlers/Sequential.js:85:15
+    at /home/minecraft/multicraft/servers/server165639/node_modules/snekfetch/src/index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  path: '/api/v7/channels/804037775526592553/messages/805862535604994085',
+  code: 10008,
+  method: 'DELETE'
+}
+Unhandled promise rejection: DiscordAPIError: Unknown Message
+    at /home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/rest/RequestHandlers/Sequential.js:85:15
+    at /home/minecraft/multicraft/servers/server165639/node_modules/snekfetch/src/index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  path: '/api/v7/channels/804037775526592553/messages/805862781970415666',
+  code: 10008,
+  method: 'DELETE'
+}
+Unhandled promise rejection: DiscordAPIError: Unknown Message
+    at /home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/rest/RequestHandlers/Sequential.js:85:15
+    at /home/minecraft/multicraft/servers/server165639/node_modules/snekfetch/src/index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  path: '/api/v7/channels/804037775526592553/messages/805865615302459413',
+  code: 10008,
+  method: 'DELETE'
+}
+Unhandled promise rejection: DiscordAPIError: Unknown Message
+    at /home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/rest/RequestHandlers/Sequential.js:85:15
+    at /home/minecraft/multicraft/servers/server165639/node_modules/snekfetch/src/index.js:215:21
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  path: '/api/v7/channels/804037775526592553/messages/805869717587099658',
+  code: 10008,
+  method: 'DELETE'
+}
+Unhandled promise rejection: Error: Cannot find module './commands/gen.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/hulu.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/steam.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/gendoordash.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/gen.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: Error: Cannot find module './commands/gencoinbase.js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}
+Unhandled promise rejection: DiscordAPIError: Unknown Message
+    at /home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/rest/RequestHandlers/Sequential.js:85:15
+    at /home/minecraft/multicraft/servers/server165639/node_modules/snekfetch/src/index.js:215:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  path: '/api/v7/channels/804037775526592553/messages/805967415506501713',
+  code: 10008,
+  method: 'DELETE'
+}
+Unhandled promise rejection: DiscordAPIError: Unknown Message
+    at /home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/rest/RequestHandlers/Sequential.js:85:15
+    at /home/minecraft/multicraft/servers/server165639/node_modules/snekfetch/src/index.js:215:21
+    at processTicksAndRejections (internal/process/task_queues.js:97:5) {
+  path: '/api/v7/channels/804037775526592553/messages/805967584859914270',
+  code: 10008,
+  method: 'DELETE'
+}
+Unhandled promise rejection: Error: Cannot find module './commands/gen[steam].js'
+Require stack:
+- /home/minecraft/multicraft/servers/server165639/index.js
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:957:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:840:27)
+    at Module.require (internal/modules/cjs/loader.js:1019:19)
+    at require (internal/modules/cjs/helpers.js:77:18)
+    at Client.<anonymous> (/home/minecraft/multicraft/servers/server165639/index.js:96:23)
+    at Client.emit (events.js:310:20)
+    at MessageCreateHandler.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/handlers/MessageCreate.js:9:34)
+    at WebSocketPacketManager.handle (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/packets/WebSocketPacketManager.js:108:65)
+    at WebSocketConnection.onPacket (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:336:35)
+    at WebSocketConnection.onMessage (/home/minecraft/multicraft/servers/server165639/node_modules/discord.js/src/client/websocket/WebSocketConnection.js:299:17) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [ '/home/minecraft/multicraft/servers/server165639/index.js' ]
+}

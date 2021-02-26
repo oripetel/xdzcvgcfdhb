@@ -1,0 +1,18 @@
+npm WARN discord.js@11.6.4 requires a peer of @discordjs/uws@^10.149.0 but none is installed. You must install peer dependencies yourself.
+
+audited 126 packages in 1.122s
+
+3 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+
+> accountgenbot@2.0.0 start /home/minecraft/multicraft/servers/server165639
+> node index.js
+
+Ready to serve in 0 channels on 0 servers, for a total of 0 users.
+Attempting to load gencallofduty.js
+Attempting to load help.js
+Attempting to load stock.js
+Everything loaded properly.
